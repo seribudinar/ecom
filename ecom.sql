@@ -35,48 +35,6 @@ CREATE TABLE IF NOT EXISTS `ci_sessions` (
   KEY `ci_sessions_timestamp` (`timestamp`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `ci_sessions`
---
-
-INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
-('02e239c9ec4f848e086d2f4a9108c200c80a5b68', '127.0.0.1', 1445845618, '__ci_last_regenerate|i:1445845591;'),
-('0bc4e8cfed125e8a792462d52654b622c87722eb', '127.0.0.1', 1445769653, '__ci_last_regenerate|i:1445769456;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('131948bd6d3264f9d71295e2f4d63197008b5770', '127.0.0.1', 1445775513, '__ci_last_regenerate|i:1445775492;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('14355300cde1a58eb9ac7f2201b12e149fce4766', '127.0.0.1', 1445844439, '__ci_last_regenerate|i:1445844386;'),
-('1b32ceb536a363111bf7751593caa943d85feeff', '127.0.0.1', 1445779381, '__ci_last_regenerate|i:1445779122;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('24f292f888d9dcf241e2d47cf64b8206f9e5c2aa', '127.0.0.1', 1445845486, '__ci_last_regenerate|i:1445845215;'),
-('3b809ef94858acba29817031ac30f178da71b81e', '127.0.0.1', 1445776209, '__ci_last_regenerate|i:1445776179;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('3d74b7f8828db517414a4a075c42603030baf60e', '127.0.0.1', 1445769125, '__ci_last_regenerate|i:1445768890;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('44215900479c5096f52f7ab9625f2a6de1ef9c49', '127.0.0.1', 1466123789, '__ci_last_regenerate|i:1466123789;'),
-('56115889af6faad53ad70b9628ad1d6bff5c1fc1', '127.0.0.1', 1445786622, '__ci_last_regenerate|i:1445786601;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('576554540d2aba68455252db717f0136a2387a4c', '::1', 1462579033, '__ci_last_regenerate|i:1462578820;email|s:22:"mafulprayoga@gmail.com";id|s:1:"4";nama_lengkap|s:15:"Maful P Arnandi";username|s:5:"maful";'),
-('6b2401357d5e23a19d878772437391efa622e68b', '127.0.0.1', 1445780470, '__ci_last_regenerate|i:1445780242;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('6e0d7dc47c82df55ae76c14d75dd65a029c32820', '127.0.0.1', 1445786970, '__ci_last_regenerate|i:1445786963;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('7184b239e9c3514051311aa287a7607309ee501c', '127.0.0.1', 1466118636, '__ci_last_regenerate|i:1466118529;'),
-('72973ec5e37ff538375db4050f26d33b736b302e', '127.0.0.1', 1445778159, '__ci_last_regenerate|i:1445778066;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('72c178d7aa3b36074ca4379b8d093448d51ac9ef', '127.0.0.1', 1445778923, '__ci_last_regenerate|i:1445778654;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('772338a80ec1941652ba8a80db565d78758fe6bc', '127.0.0.1', 1445779979, '__ci_last_regenerate|i:1445779737;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('776e9761da9356516eee367ae82473e40f0d397b', '127.0.0.1', 1445779691, '__ci_last_regenerate|i:1445779428;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('85fdd64679fe9a475f7dca2743a9d92b36945ef1', '127.0.0.1', 1445781550, '__ci_last_regenerate|i:1445781543;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('8ccd7856ed4b4bc5155a2dc8c80fd3827c19a49b', '::1', 1462579318, '__ci_last_regenerate|i:1462579150;email|s:22:"mafulprayoga@gmail.com";id|s:1:"4";nama_lengkap|s:15:"Maful P Arnandi";username|s:5:"maful";'),
-('8d06476d549a0f60b1e37919b2093b6c0f68de44', '127.0.0.1', 1445775145, '__ci_last_regenerate|i:1445775112;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('9230e74a782f341b2b15d6f36d3998447236ad3e', '127.0.0.1', 1445783011, '__ci_last_regenerate|i:1445782958;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('a5e7967288b97f834ac1b033b0d8b5bab2a6d3df', '127.0.0.1', 1445771200, '__ci_last_regenerate|i:1445771200;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('a6483aad184353015e7b7c253d3e4a0b03453744', '127.0.0.1', 1445780775, '__ci_last_regenerate|i:1445780570;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('a7322e7b388a0bcd5dad985064e2bd6bc570c504', '127.0.0.1', 1445782804, '__ci_last_regenerate|i:1445782521;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('af1f24b0ac470441dfb218e1405ed7cd3db75f8b', '127.0.0.1', 1445786346, '__ci_last_regenerate|i:1445786047;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('b359213bd50be5d2c4debb974a01ce809ff2d1c1', '127.0.0.1', 1466119683, '__ci_last_regenerate|i:1466119386;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('b976b1666726e2a77978ccc178a08cac953f6476', '127.0.0.1', 1466119934, '__ci_last_regenerate|i:1466119934;'),
-('de364c8d61e24ccab514fef15bd6be8941f7c05f', '127.0.0.1', 1445785704, '__ci_last_regenerate|i:1445785704;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('e2812006f7ccd188fad35051e07460b5e4ac8d62', '127.0.0.1', 1466123168, '__ci_last_regenerate|i:1466122973;'),
-('e336a030891c224c9a4aece2d5754a03dd1fd59d', '::1', 1462579731, '__ci_last_regenerate|i:1462579494;email|s:22:"mafulprayoga@gmail.com";id|s:1:"4";nama_lengkap|s:15:"Maful P Arnandi";username|s:5:"maful";'),
-('e8da1e8add868c686b348396cc64ccc4c31365b6', '127.0.0.1', 1466122300, '__ci_last_regenerate|i:1466122282;'),
-('f1fa82af5b84737f408304aa2bae14f1958c8e01', '127.0.0.1', 1445780993, '__ci_last_regenerate|i:1445780987;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('f9528df928ca9bc2703c9a172501bfd7304ea3b7', '127.0.0.1', 1445772489, '__ci_last_regenerate|i:1445772228;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";'),
-('ff19d9b9c51d64e2a264c2e21b1aaa140ec7b921', '::1', 1462580021, '__ci_last_regenerate|i:1462579998;email|s:22:"mafulprayoga@gmail.com";id|s:1:"4";nama_lengkap|s:15:"Maful P Arnandi";username|s:5:"maful";'),
-('fffdd6067f1c4c5e598733ce90349f668d6fa082', '127.0.0.1', 1445777734, '__ci_last_regenerate|i:1445777721;email|s:15:"rasya@gmail.com";id|s:1:"7";nama_lengkap|s:15:"Rasya P Arnandi";username|s:5:"rasya";');
-
 -- --------------------------------------------------------
 
 --
