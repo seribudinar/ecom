@@ -297,7 +297,9 @@ class MX_Loader extends CI_Loader
 			$view = $_view;
 		}
 
-		return $this->_ci_load(array('_ci_view' => $view, '_ci_vars' => $this->_ci_object_to_array($vars), '_ci_return' => $return));
+		// return $this->_ci_load(array('_ci_view' => $view, '_ci_vars' => $this->_ci_object_to_array($vars), '_ci_return' => $return));
+
+		return $this->_ci_load(array('_ci_view' => $view, '_ci_vars' => $this->_ci_prepare_view_vars($vars), '_ci_return' => $return));
 	}
 
 	protected function &_ci_get_component($component)
@@ -426,6 +428,15 @@ class MX_Loader extends CI_Loader
 					$this->$type($item);
 				}
 			}
+		}
+		
+		// Autoload drivers
+		if (isset($autoload['drivers']))
+		{
+		    foreach ($autoload['drivers'] as $item => $alias)
+		    {
+		        (is_int($item)) ? $this->driver($alias) : $this->driver($item, $alias);
+		    }
 		}
 
 		/* autoload database & libraries */

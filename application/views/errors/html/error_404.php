@@ -59,6 +59,8 @@ p {
 	<div id="container">
 		<h1><?php echo $heading; ?></h1>
 		<?php echo $message; ?>
+		<p> <a href="javascript:window.history.go(-1)">Kembali ke Halaman Sebelumnya</a> |
+        <a href="<?php echo config_item('base_url') ?>">Kembali ke Home</a> </p>
 	</div>
 </body>
 </html>
